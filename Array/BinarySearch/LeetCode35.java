@@ -1,5 +1,4 @@
 
-package BinarySearch;
 
 /**
  * LeetCode35

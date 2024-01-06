@@ -1,4 +1,4 @@
-package BinarySearch;
+
 
 /**
  * Searchanelemeninsortedandrotated
@@ -17,9 +17,9 @@ public class Searchanelemeninsortedandrotated {
             if (arr[mid] == target) {
                 ans = mid;
             }
-            else if(arr[mid])
 
         }
+        return ans;
 
     }
 
