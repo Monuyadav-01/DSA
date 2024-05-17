@@ -8,14 +8,14 @@ public class Solution {
 
         int initialColor = image[sr][sc];
 
-        int ans[][] = image;
+
 
         int delRow[] = { -1, 0, 1, 0 };
         int delCol[] = { 0, -1, 0, 1 };
 
         dfs(sr, sc, newColor, initialColor, image, delRow, delCol);
 
-        return ans;
+        return image;
     }
 
     private static void dfs(int row, int col, int newColor, int initialColor, int[][] image, int[] delRow,
